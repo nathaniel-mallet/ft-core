@@ -1,0 +1,7 @@
+# Dockerfile.db
+FROM postgres:18-alpine
+
+# Basic dev defaults
+ENV POSTGRES_USER=ftcore-admin POSTGRES_PASSWORD=ftcore-admin POSTGRES_DB=ftcore
+
+EXPOSE 5432
